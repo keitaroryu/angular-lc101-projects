@@ -1,13 +1,26 @@
 <div class="skills">
    <h3>{{listHeading}}</h3>
+<<<<<<< HEAD
    <ol>
+=======
+   <ol ol [style.color]="alternateColor" [type]="bulletType">
+>>>>>>> 9fd9381bf8a2523e0db6d36f797a4b9ccc94cf53
       <li *ngFor="let skill of skills">{{skill}}</li>
    </ol>
    <hr>
    <h3>Copy of Skill List</h3>
+<<<<<<< HEAD
    <ol>
       <li *ngFor="let skill of skills">{{skill}}</li>
    </ol>
    <hr>
    <p>Here is some practice text...</p>
 </div>
+=======
+   <ol [class.ol-style]="changeColor">
+      <li *ngFor="let skill of skills" (click)="changeColor = !changeColor">{{skill}}</li>
+   </ol>
+   <hr>
+   <p [class.p-style]="!changeColor" (click)="changeColor = !changeColor">Here is some practice text...</p>
+</div>
+>>>>>>> 9fd9381bf8a2523e0db6d36f797a4b9ccc94cf53

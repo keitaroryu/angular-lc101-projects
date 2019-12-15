@@ -1,4 +1,14 @@
+<<<<<<< HEAD
 a {
     display: block;
     text-align: center;
+=======
+.links {
+   text-align: center;
+   font-size: 1.5vw;
+}
+
+h3 {
+   text-decoration: underline;
+>>>>>>> 9fd9381bf8a2523e0db6d36f797a4b9ccc94cf53
 }

@@ -1,4 +1,5 @@
 .movies {
+<<<<<<< HEAD
     color: green;
 }
 
@@ -8,4 +9,12 @@ h3 {
 
 ol {
     font-size: 20px;
+=======
+   color: purple;
+   font-size: 1.3vw;
+}
+
+h3 {
+   text-align: center;
+>>>>>>> 9fd9381bf8a2523e0db6d36f797a4b9ccc94cf53
 }

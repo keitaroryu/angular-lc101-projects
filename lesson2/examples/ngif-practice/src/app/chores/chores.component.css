@@ -2,6 +2,10 @@
     color: #ff4f33;
 }
 
+.treat {
+    color: #419f6a;
+}
+
 .doneChores {
     color: #3c79b8;
 }
@@ -17,7 +21,11 @@ img {
     margin: auto;
 }
 
+<<<<<<< HEAD
 .harder {
     color: black;
+=======
+p {
+>>>>>>> 9fd9381bf8a2523e0db6d36f797a4b9ccc94cf53
     text-align: center;
 }

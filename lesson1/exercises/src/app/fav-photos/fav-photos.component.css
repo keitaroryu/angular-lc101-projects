@@ -3,11 +3,16 @@ h3 {
 }
 
 img {
+<<<<<<< HEAD
    width: 200px;
    height: auto;
    display: block;
    margin-left: auto;
    margin-right: auto;
+=======
+   width: 40%;
+   height: auto;
+>>>>>>> 9fd9381bf8a2523e0db6d36f797a4b9ccc94cf53
 }
 
 .photos {
