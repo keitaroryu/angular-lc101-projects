@@ -4,17 +4,7 @@
        <li *ngFor ="let movie of movies">{{movie}}</li>
     </ol>
     <hr>
-<<<<<<< HEAD
-
-=======
-    <input #newMovie (keyup.enter)="addMovie(newMovie.value); newMovie.value = ''" type="text" placeholder="Enter Movie Title Here"/>
-    <button (click)="addMovie(newMovie.value); newMovie.value = ''">Add</button>
-
-    <!-- The following lines solve the bonus tasks. Replace lines 7 & 8 with lines
-         12 - 14.
-    <input #newMovie (keyup.enter)="message = addMovie(newMovie.value); newMovie.value = ''" type="text" placeholder="Enter Movie Title Here"/>
-    <button (click)="message = addMovie(newMovie.value); newMovie.value = ''">Add</button>
-    <p class = "error" *ngIf = "message">{{message}}</p>
-    -->
->>>>>>> 9fd9381bf8a2523e0db6d36f797a4b9ccc94cf53
- </div>
+    <input #newMovie (keyup.enter)='addMovie(newMovie.value)' type='text' placeholder="Enter Movie Title Here"/>
+    <button (click)='addMovie(newMovie.value)'>Add</button>
+    <p (click)='true'>{{addMovie(newMovie.value)}}</p>
+</div>

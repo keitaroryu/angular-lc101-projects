@@ -14,12 +14,18 @@ export class MovieListComponent implements OnInit {
    }
 
    addMovie (newTitle: string) {
-      if(!this.movies.includes(newTitle)){
+      let errorMsg = '';
+      if(newTitle.length === 0){
+         errorMsg = 'Please enter a movie title.';
+      } else if (this.movies.includes(newTitle)){
+         errorMsg = `${newTitle} is already in your move list.`;
+      } else {
          this.movies.push(newTitle);
       }
+      return errorMsg;
    }
 
-   // The following code is one solution to the bonus task.
+   // The following code is one solution to the bonu  s task.
    // Comment out lines 16 - 20, then uncomment lines 25 - 35 to use it.
    /*
    addMovie (newTitle: string) {
